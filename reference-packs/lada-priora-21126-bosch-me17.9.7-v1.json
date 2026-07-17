@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "lada-priora-21126-bosch-me17.9.7",
+  "version": 1,
+  "title": "Lada Priora 21126 · Bosch ME17.9.7",
+  "status": "PUBLISHED",
+  "selector": {
+    "make": "Lada",
+    "model": "Priora",
+    "yearFrom": 2007,
+    "yearTo": 2018,
+    "engineCodes": ["21126"],
+    "ecuNames": [
+      "Bosch ME17.9.7",
+      "ME17.9.7",
+      "Bosch МE17.9.7",
+      "МE17.9.7",
+      "21126-1411020-40"
+    ]
+  },
+  "provenance": {
+    "sourceTitle": "Lada.Online: типовые параметры Bosch ME17.9.7; Bosch Electronic Service: ECU 21126",
+    "sourceUrl": "https://xn--80aal0a.xn--80asehdb/do-my-self/repair/repair-lada-granta/10318-tipovye-parametry-diagnostiki-lada-granta-priora-s-kontrollerom-bosch-me1797.html",
+    "license": "Фактические диапазоны с указанием источника; текст и изображения источника не распространяются",
+    "retrievedAt": "2026-07-17",
+    "reviewer": "AutoDiag owner review",
+    "verifiedAt": "2026-07-17"
+  },
+  "rules": [
+    {
+      "id": "warm-idle-coolant",
+      "metricKey": "coolant",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 90.0,
+      "upperBound": 101.0,
+      "unit": "°C",
+      "rationale": "Для Bosch ME17.9.7 указана типовая температура ОЖ 90–101 °C при положительной температуре окружающего воздуха.",
+      "minimumSamples": 6,
+      "severity": "MEDIUM",
+      "checks": ["Проверить термостат и фактический прогрев", "Сопоставить показание ДТОЖ с температурой патрубков", "Проверить работу вентилятора при повышенной температуре"]
+    },
+    {
+      "id": "warm-idle-rpm",
+      "metricKey": "rpm",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 760.0,
+      "upperBound": 840.0,
+      "unit": "об/мин",
+      "rationale": "Типовые обороты холостого хода указаны как 800±40 об/мин.",
+      "minimumSamples": 8,
+      "severity": "LOW",
+      "checks": ["Проверить нагрузку от кондиционера и электропотребителей", "Проверить подсос воздуха и загрязнение дросселя", "Сопоставить с коррекциями смеси"]
+    },
+    {
+      "id": "warm-idle-maf",
+      "metricKey": "maf",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 1.94,
+      "upperBound": 3.33,
+      "unit": "г/с",
+      "rationale": "Исходный диапазон 7–12 кг/ч пересчитан в 1.94–3.33 г/с для стандартного PID 0110.",
+      "minimumSamples": 8,
+      "severity": "MEDIUM",
+      "checks": ["Проверить ДМРВ и его разъём", "Проверить воздушный фильтр и герметичность впуска", "Проверить фазы ГРМ при устойчиво завышенном расходе"]
+    },
+    {
+      "id": "warm-idle-throttle",
+      "metricKey": "throttle",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 1.0,
+      "upperBound": 4.0,
+      "unit": "%",
+      "rationale": "Для электронного дросселя указан типовой диапазон 1–4% на холостом ходу.",
+      "minimumSamples": 8,
+      "severity": "LOW",
+      "checks": ["Проверить загрязнение дроссельного узла", "Проверить адаптацию дросселя", "Сопоставить с желаемыми оборотами и нагрузкой"]
+    },
+    {
+      "id": "warm-idle-load",
+      "metricKey": "load",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 15.0,
+      "upperBound": 25.0,
+      "unit": "%",
+      "rationale": "Типовая расчётная нагрузка на холостом ходу указана как 15–25%.",
+      "minimumSamples": 8,
+      "severity": "LOW",
+      "checks": ["Отключить временные электрические и климатические нагрузки и повторить тест", "Сопоставить с MAF, MAP и положением дросселя"]
+    },
+    {
+      "id": "warm-idle-timing",
+      "metricKey": "timing",
+      "contexts": ["WARM_IDLE"],
+      "lowerBound": 4.0,
+      "upperBound": 14.0,
+      "unit": "°",
+      "rationale": "Типовой угол опережения зажигания указан как 9±5 градусов поворота коленвала.",
+      "minimumSamples": 8,
+      "severity": "LOW",
+      "checks": ["Сопоставить с нагрузкой, детонационной коррекцией и качеством топлива", "Проверить фазы ГРМ при устойчивом отклонении"]
+    },
+    {
+      "id": "running-voltage",
+      "metricKey": "module_voltage",
+      "contexts": ["WARM_IDLE", "CRUISE"],
+      "lowerBound": 13.0,
+      "upperBound": 14.5,
+      "unit": "В",
+      "rationale": "Для Bosch ME17.9.7 указан типовой диапазон напряжения бортсети 13.0–14.5 В.",
+      "minimumSamples": 6,
+      "severity": "HIGH",
+      "checks": ["Проверить напряжение мультиметром на аккумуляторе", "Проверить генератор, регулятор, клеммы и массы", "Сравнить напряжение ЭБУ и адаптера"]
+    },
+    {
+      "id": "ignition-fuel-pressure",
+      "metricKey": "fuel_pressure",
+      "contexts": ["IGNITION_ON"],
+      "lowerBound": 360.0,
+      "upperBound": 400.0,
+      "unit": "кПа",
+      "rationale": "Для включённого зажигания и неработающего двигателя указано давление рампы 3.6–4.0 бар.",
+      "minimumSamples": 4,
+      "severity": "HIGH",
+      "checks": ["Проверить давление механическим манометром", "Проверить насос, фильтр и регулятор давления", "Проверить вмешательство ГБО в цепь питания бензонасоса"]
+    }
+  ]
+}

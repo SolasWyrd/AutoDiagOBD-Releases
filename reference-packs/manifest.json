@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "publishedAt": "2026-07-17T19:12:08Z",
+  "packs": [
+    {
+      "id": "lada-priora-21126-bosch-me17.9.7",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/SolasWyrd/AutoDiagOBD-Releases/main/reference-packs/lada-priora-21126-bosch-me17.9.7-v1.json",
+      "size": 6385,
+      "sha256": "cf3a65a9cc409787a71c3cec64fe041ca7fb69b052927fc447b1b5ab8b39817f"
+    }
+  ]
+}

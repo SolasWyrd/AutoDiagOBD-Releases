@@ -5,10 +5,12 @@
   "minSupportedVersionCode": 31,
   "publishedAt": "2026-07-17T21:39:38Z",
   "mandatory": false,
-  "apkUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.1/AutoDiag-0.14.0-beta.1-build36-release.apk",
-  "apkSizeBytes": 1875318,
-  "apkSha256": "8ebcf5c179e0b05ceeccc53d2048ee7c40f8cf021aad822d48fac66c8e68d28c",
   "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.1",
+  "apk": {
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.1/AutoDiag-0.14.0-beta.1-build36-release.apk",
+    "size": 1875318,
+    "sha256": "8ebcf5c179e0b05ceeccc53d2048ee7c40f8cf021aad822d48fac66c8e68d28c"
+  },
   "changelog": [
     "Экран «Данные» перестроен в простой live dashboard без технического шума.",
     "Основные показатели вынесены в крупные плитки, остальные — в компактный список.",

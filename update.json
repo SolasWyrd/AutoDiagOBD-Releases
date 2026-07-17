@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "versionCode": 35,
-  "versionName": "0.13.0",
+  "versionCode": 36,
+  "versionName": "0.14.0-beta.1",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-17T19:12:08Z",
+  "publishedAt": "2026-07-17T21:39:38Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.13.0",
-  "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.13.0/AutoDiag-0.13.0-build35-release.apk",
-    "size": 1875307,
-    "sha256": "52ddd7d18676804dba2bfcfe7077d05071db326186675b029790306570947e0d"
-  },
+  "apkUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.1/AutoDiag-0.14.0-beta.1-build36-release.apk",
+  "apkSizeBytes": 1875318,
+  "apkSha256": "8ebcf5c179e0b05ceeccc53d2048ee7c40f8cf021aad822d48fac66c8e68d28c",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.1",
   "changelog": [
-    "Добавлен реальный ReferencePack Lada Priora 21126 + Bosch ME17.9.7",
-    "ReferencePack применяется только к повторяемым отклонениям подтверждённой конфигурации",
-    "Добавлено безопасное обновление каталога ReferencePack с SHA-256 и откатом",
-    "Добавлены offline VIN decoding, SAE Mode 06 и read-only enhanced PID platform",
-    "Добавлены guided tests P0172 бензин/ГБО и P0628 цепь бензонасоса"
+    "Экран «Данные» перестроен в простой live dashboard без технического шума.",
+    "Основные показатели вынесены в крупные плитки, остальные — в компактный список.",
+    "Проверка новой версии выполняется при каждом запуске приложения.",
+    "Карточка обновления показывается только при наличии более новой версии.",
+    "Обновлены Overview и детали датчиков."
   ]
 }

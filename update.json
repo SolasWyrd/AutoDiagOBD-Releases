@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "versionCode": 36,
-  "versionName": "0.14.0-beta.1",
+  "versionCode": 37,
+  "versionName": "0.14.0-beta.2",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-17T21:39:38Z",
+  "publishedAt": "2026-07-18T06:20:10Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.1",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.2",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.1/AutoDiag-0.14.0-beta.1-build36-release.apk",
-    "size": 1875318,
-    "sha256": "8ebcf5c179e0b05ceeccc53d2048ee7c40f8cf021aad822d48fac66c8e68d28c"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.2/AutoDiag-0.14.0-beta.2-build37-release.apk",
+    "size": 1875310,
+    "sha256": "224c9f6584c4b061f9631f6cfdcb7b267910c298f606d29fad43d93990ff9594"
   },
   "changelog": [
-    "Экран «Данные» перестроен в простой live dashboard без технического шума.",
-    "Основные показатели вынесены в крупные плитки, остальные — в компактный список.",
-    "Проверка новой версии выполняется при каждом запуске приложения.",
-    "Карточка обновления показывается только при наличии более новой версии.",
-    "Обновлены Overview и детали датчиков."
+    "История диагностики получила фильтры по автомобилям и компактный список.",
+    "Сравнение с предыдущей проверкой показывает только значимые изменения.",
+    "В Гараже редактирование вынесено в явное действие «Изменить данные».",
+    "Источники идентификации разделены на данные владельца, автомобиля и неподтверждённые сведения.",
+    "Улучшены accessibility-контракты и стабильность UI-тестов."
   ]
 }

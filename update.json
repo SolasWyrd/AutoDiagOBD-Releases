@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "versionCode": 37,
-  "versionName": "0.14.0-beta.2",
+  "versionCode": 38,
+  "versionName": "0.14.0-beta.3",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-18T06:20:10Z",
+  "publishedAt": "2026-07-18T06:48:00Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.2",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.3",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.2/AutoDiag-0.14.0-beta.2-build37-release.apk",
-    "size": 1875310,
-    "sha256": "224c9f6584c4b061f9631f6cfdcb7b267910c298f606d29fad43d93990ff9594"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.3/AutoDiag-0.14.0-beta.3-build38-release.apk",
+    "size": 1875315,
+    "sha256": "1dbb354550b8e9e35d778ae5e1a8f44ac36e73af9583699531a15c38aa7c2f29"
   },
   "changelog": [
-    "История диагностики получила фильтры по автомобилям и компактный список.",
-    "Сравнение с предыдущей проверкой показывает только значимые изменения.",
-    "В Гараже редактирование вынесено в явное действие «Изменить данные».",
-    "Источники идентификации разделены на данные владельца, автомобиля и неподтверждённые сведения.",
-    "Улучшены accessibility-контракты и стабильность UI-тестов."
+    "Первый экран «Обзор» перестроен вокруг основного действия и результата.",
+    "Добавлены явный следующий шаг и объяснение полноты проверки.",
+    "Активный автомобиль и подключение показаны компактнее.",
+    "Ключевые показатели выводятся только при наличии валидных данных.",
+    "Проблемы упорядочиваются по серьёзности и достоверности."
   ]
 }

@@ -1,21 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 38,
-  "versionName": "0.14.0-beta.3",
+  "versionCode": 39,
+  "versionName": "0.14.0-beta.4",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-18T06:48:00Z",
+  "publishedAt": "2026-07-18T07:42:32Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.3",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.4",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.3/AutoDiag-0.14.0-beta.3-build38-release.apk",
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.4/AutoDiag-0.14.0-beta.4-build39-release.apk",
     "size": 1875315,
-    "sha256": "1dbb354550b8e9e35d778ae5e1a8f44ac36e73af9583699531a15c38aa7c2f29"
+    "sha256": "68892412301456f554d9f54e9c67c88d4c38df339d3e1c72930c7aeaec29c9ea"
   },
   "changelog": [
-    "Первый экран «Обзор» перестроен вокруг основного действия и результата.",
-    "Добавлены явный следующий шаг и объяснение полноты проверки.",
-    "Активный автомобиль и подключение показаны компактнее.",
-    "Ключевые показатели выводятся только при наличии валидных данных.",
-    "Проблемы упорядочиваются по серьёзности и достоверности."
+    "На экране поездки показывается одна итоговая скорость по данным OBD и GPS.",
+    "При плохом или сильно расходящемся GPS приложение использует скорость OBD.",
+    "Режим поездки теперь запускается без подключения к OBD.",
+    "Отключение адаптера не завершает активную GPS-поездку.",
+    "Убраны подписи режимов движения и смена цвета скорости при разгоне или торможении.",
+    "GPS обновляется чаще, а сглаживание скорости стало короче."
   ]
 }

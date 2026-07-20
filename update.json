@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 46,
-  "versionName": "0.14.0-beta.11",
+  "versionCode": 47,
+  "versionName": "0.14.0-beta.12",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T17:22:12Z",
+  "publishedAt": "2026-07-20T18:08:19Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.11",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.12",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.11/AutoDiag-0.14.0-beta.11-build46-release.apk",
-    "size": 1680877,
-    "sha256": "03676cba875e9bf5e58b3fb62032506c74634ad8808d6c17ca136bec82eefd74"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.12/AutoDiag-0.14.0-beta.12-build47-release.apk",
+    "size": 1680874,
+    "sha256": "0e3cf32553859089d47ecd80503f5401dbe86c670b24e6643a5e7f2dc1e88b8c"
   },
   "changelog": [
-    "Прогрев считается завершённым с 50 °C.",
-    "Убраны повторяющиеся статусы и длинные пояснения.",
-    "Обзор показывает один результат и одно действие.",
-    "Показатели, история и подключение стали компактнее.",
-    "Режим поездки оставляет только скорость и два показателя.",
-    "Улучшена компоновка на узких экранах и при крупном тексте."
+    "Проверка ЭБУ всегда включает все обязательные источники.",
+    "Коды неисправностей всегда читаются три раза.",
+    "Удалены настройки отключения обязательных проверок.",
+    "После проверки обновления сразу доступно скачивание.",
+    "После загрузки обновление устанавливается из того же блока.",
+    "Настройки стали короче и понятнее."
   ]
 }

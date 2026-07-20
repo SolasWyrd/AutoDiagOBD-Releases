@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 43,
-  "versionName": "0.14.0-beta.8",
+  "versionCode": 44,
+  "versionName": "0.14.0-beta.9",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T10:08:35Z",
+  "publishedAt": "2026-07-20T10:56:57Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.8",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.9",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.8/AutoDiag-0.14.0-beta.8-build43-release.apk",
-    "size": 1697252,
-    "sha256": "eb0fa9c83803c2ba3fa42fd4932a3e1ede9a5f5a29ad0b605693e9870199f2e2"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.9/AutoDiag-0.14.0-beta.9-build44-release.apk",
+    "size": 1697259,
+    "sha256": "64f2d1d96f9a77f18070867d10b375a5d7ae4ae808eacc7205a0987e298c1d7d"
   },
   "changelog": [
-    "Поездка без OBD теперь определяется автоматически по движению и скорости GPS.",
-    "Отдельные кнопки запуска GPS-поездки удалены.",
-    "Для запуска нужны две достоверные GPS-точки со скоростью не ниже 8 км/ч.",
-    "До движения используется экономичный мониторинг, во время поездки — частый GPS-опрос.",
-    "Короткие остановки не завершают маршрут.",
-    "После трёх минут стоянки поездка завершается автоматически, затем определяется следующая."
+    "Интерфейс перестроен по Design Contract v3 — Warm Precision Workbench.",
+    "Обзор разделяет текущее состояние, следующий шаг, полноту проверки и доказательства.",
+    "Подключение стало пошаговым и показывает одно текущее действие.",
+    "Данные получили закреплённые показатели и структурированный список остальных каналов.",
+    "История объединяет поездки и проверки, а экспорт скрыт до запроса.",
+    "Режим поездки стал цифровым и сохраняет только безопасный минимум информации."
   ]
 }

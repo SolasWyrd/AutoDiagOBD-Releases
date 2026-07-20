@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 47,
-  "versionName": "0.14.0-beta.12",
+  "versionCode": 48,
+  "versionName": "0.14.0-beta.13",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T18:08:19Z",
+  "publishedAt": "2026-07-20T19:19:52Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.12",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.13",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.12/AutoDiag-0.14.0-beta.12-build47-release.apk",
-    "size": 1680874,
-    "sha256": "0e3cf32553859089d47ecd80503f5401dbe86c670b24e6643a5e7f2dc1e88b8c"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.13/AutoDiag-0.14.0-beta.13-build48-release.apk",
+    "size": 1697262,
+    "sha256": "cd66f24fd7afd24bf589f43b7afaf3bf100aaa53d6c984c8c3de36c2e28c5924"
   },
   "changelog": [
-    "Проверка ЭБУ всегда включает все обязательные источники.",
-    "Коды неисправностей всегда читаются три раза.",
-    "Удалены настройки отключения обязательных проверок.",
-    "После проверки обновления сразу доступно скачивание.",
-    "После загрузки обновление устанавливается из того же блока.",
-    "Настройки стали короче и понятнее."
+    "Новый живой фон и стеклянные поверхности с глубиной.",
+    "Числовые значения обновляются кинетически по разрядам.",
+    "Результат диагностики получил орбитальный индикатор состояния.",
+    "Добавлена плавающая стеклянная навигация.",
+    "Экран поездки получил новое поле скорости.",
+    "Системное отключение анимаций полностью поддерживается."
   ]
 }

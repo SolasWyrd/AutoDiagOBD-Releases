@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 40,
-  "versionName": "0.14.0-beta.5",
+  "versionCode": 41,
+  "versionName": "0.14.0-beta.6",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T06:31:45Z",
+  "publishedAt": "2026-07-20T07:31:16Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.5",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.6",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.5/AutoDiag-0.14.0-beta.5-build40-release.apk",
-    "size": 1891698,
-    "sha256": "ae1f6b80478e4824e6c56e98d6078e1c08f2dd37274476fbf2573d09bc0e88a7"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.6/AutoDiag-0.14.0-beta.6-build41-release.apk",
+    "size": 1908087,
+    "sha256": "e292288ccf33869b13a578653fefc6199ae9bfef0c2bdad2f00a985a1b049130"
   },
   "changelog": [
-    "Добавлена полноценная системная светлая и тёмная тема.",
-    "Все основные экраны переведены на семантические цвета Material 3.",
-    "В landscape и на широких экранах используется навигационная рейка.",
-    "На планшетах History открывает список и отчёт в двух панелях.",
-    "Фильтры истории больше не обрезаются и переносятся на новую строку.",
-    "Connection, Data и History адаптированы к крупному системному тексту."
+    "Редактор автомобиля использует зависимые списки с поиском вместо свободного ввода.",
+    "Марки и модели легковых автомобилей загружаются из официального каталога NHTSA vPIC.",
+    "Для LADA Priora и Vesta добавлены проверенные конфигурации из официальных материалов LADA.",
+    "Код двигателя, калибровка и прошивка ЭБУ больше не вводятся вручную.",
+    "Добавлены фиксированные списки топлива, поколения ГБО и марки контроллера.",
+    "Редактор сохраняет кнопки действий доступными при крупном системном тексте."
   ]
 }

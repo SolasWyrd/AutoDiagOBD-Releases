@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 39,
-  "versionName": "0.14.0-beta.4",
+  "versionCode": 40,
+  "versionName": "0.14.0-beta.5",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-18T07:42:32Z",
+  "publishedAt": "2026-07-20T06:31:45Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.4",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.5",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.4/AutoDiag-0.14.0-beta.4-build39-release.apk",
-    "size": 1875315,
-    "sha256": "68892412301456f554d9f54e9c67c88d4c38df339d3e1c72930c7aeaec29c9ea"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.5/AutoDiag-0.14.0-beta.5-build40-release.apk",
+    "size": 1891698,
+    "sha256": "ae1f6b80478e4824e6c56e98d6078e1c08f2dd37274476fbf2573d09bc0e88a7"
   },
   "changelog": [
-    "На экране поездки показывается одна итоговая скорость по данным OBD и GPS.",
-    "При плохом или сильно расходящемся GPS приложение использует скорость OBD.",
-    "Режим поездки теперь запускается без подключения к OBD.",
-    "Отключение адаптера не завершает активную GPS-поездку.",
-    "Убраны подписи режимов движения и смена цвета скорости при разгоне или торможении.",
-    "GPS обновляется чаще, а сглаживание скорости стало короче."
+    "Добавлена полноценная системная светлая и тёмная тема.",
+    "Все основные экраны переведены на семантические цвета Material 3.",
+    "В landscape и на широких экранах используется навигационная рейка.",
+    "На планшетах History открывает список и отчёт в двух панелях.",
+    "Фильтры истории больше не обрезаются и переносятся на новую строку.",
+    "Connection, Data и History адаптированы к крупному системному тексту."
   ]
 }

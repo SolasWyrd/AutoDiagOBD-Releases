@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 45,
-  "versionName": "0.14.0-beta.10",
+  "versionCode": 46,
+  "versionName": "0.14.0-beta.11",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T14:38:03Z",
+  "publishedAt": "2026-07-20T17:22:12Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.10",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.11",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.10/AutoDiag-0.14.0-beta.10-build45-release.apk",
-    "size": 1697265,
-    "sha256": "104dcadf24487e72a70ae9cbb9d52628f06c46386f553d9515ffc917aaf09630"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.11/AutoDiag-0.14.0-beta.11-build46-release.apk",
+    "size": 1680877,
+    "sha256": "03676cba875e9bf5e58b3fb62032506c74634ad8808d6c17ca136bec82eefd74"
   },
   "changelog": [
-    "Все основные и вторичные экраны переведены на единый layout-контракт.",
-    "Удалён лишний блок полноты доступной OBD-II проверки.",
-    "Унифицированы заголовки, списки, пустые состояния, настройки и подтверждения удаления.",
-    "Перестроены отчёт диагностики и подробности показателей и проблем.",
-    "Исправлена компоновка на узких экранах и при крупном системном тексте.",
-    "Удалён старый неиспользуемый UI-код."
+    "Прогрев считается завершённым с 50 °C.",
+    "Убраны повторяющиеся статусы и длинные пояснения.",
+    "Обзор показывает один результат и одно действие.",
+    "Показатели, история и подключение стали компактнее.",
+    "Режим поездки оставляет только скорость и два показателя.",
+    "Улучшена компоновка на узких экранах и при крупном тексте."
   ]
 }

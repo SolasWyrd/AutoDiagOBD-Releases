@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 48,
-  "versionName": "0.14.0-beta.13",
+  "versionCode": 49,
+  "versionName": "0.14.0-beta.14",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-20T19:19:52Z",
+  "publishedAt": "2026-07-22T22:00:41Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.13",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.14",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.13/AutoDiag-0.14.0-beta.13-build48-release.apk",
-    "size": 1697262,
-    "sha256": "cd66f24fd7afd24bf589f43b7afaf3bf100aaa53d6c984c8c3de36c2e28c5924"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.14/AutoDiag-0.14.0-beta.14-build49-release.apk",
+    "size": 1680875,
+    "sha256": "5acba80223a255b1307097354a76c6d54a444932f355e2b978803606056294c0"
   },
   "changelog": [
-    "Новый живой фон и стеклянные поверхности с глубиной.",
-    "Числовые значения обновляются кинетически по разрядам.",
-    "Результат диагностики получил орбитальный индикатор состояния.",
-    "Добавлена плавающая стеклянная навигация.",
-    "Экран поездки получил новое поле скорости.",
-    "Системное отключение анимаций полностью поддерживается."
+    "Удалён пользовательский блок диагностических тестов.",
+    "Увеличены поля экранов и расстояния между секциями.",
+    "Карточки проблем больше не прижаты к рамкам.",
+    "Стеклянные поверхности и контуры стали легче.",
+    "Нижняя навигация стала компактнее и дальше от краёв.",
+    "Блок «Дополнительно» больше не предлагает ручные тесты."
   ]
 }

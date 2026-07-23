@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "versionCode": 49,
-  "versionName": "0.14.0-beta.14",
+  "versionCode": 50,
+  "versionName": "0.14.0-beta.15",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-22T22:00:41Z",
+  "publishedAt": "2026-07-23T11:20:54Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.14",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.15",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.14/AutoDiag-0.14.0-beta.14-build49-release.apk",
-    "size": 1680875,
-    "sha256": "5acba80223a255b1307097354a76c6d54a444932f355e2b978803606056294c0"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.15/AutoDiag-0.14.0-beta.15-build50-release.apk",
+    "size": 1680879,
+    "sha256": "08f49039bf470e98ae164a7455d42e0150cc60dc78312aa684ff1fde881d405f"
   },
   "changelog": [
-    "Удалён пользовательский блок диагностических тестов.",
-    "Увеличены поля экранов и расстояния между секциями.",
-    "Карточки проблем больше не прижаты к рамкам.",
-    "Стеклянные поверхности и контуры стали легче.",
-    "Нижняя навигация стала компактнее и дальше от краёв.",
-    "Блок «Дополнительно» больше не предлагает ручные тесты."
+    "GPS-скорость рассчитывается по координатам, если Android не передаёт скорость или возвращает залипший ноль.",
+    "Автоматический режим поездки без OBD снова запускается по подтверждённому движению.",
+    "Фильтры точности и повторное подтверждение защищают от ложного запуска на GPS-дрейфе.",
+    "Иконка GPS больше не прижата к границе контейнера.",
+    "Убраны неоновые контуры, лишние свечения и декоративные орбиты.",
+    "Поверхности, фон и нижняя навигация стали спокойнее и строже."
   ]
 }

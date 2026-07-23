@@ -8,8 +8,8 @@
   "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.15",
   "apk": {
     "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.15/AutoDiag-0.14.0-beta.15-build50-release.apk",
-    "size": 1680879,
-    "sha256": "08f49039bf470e98ae164a7455d42e0150cc60dc78312aa684ff1fde881d405f"
+    "size": 1680878,
+    "sha256": "3323bf2c0ec5e08de7ddb37ad27f1db1ffa9d3238d5baf25ee9c487ba17478ea"
   },
   "changelog": [
     "GPS-скорость рассчитывается по координатам, если Android не передаёт скорость или возвращает залипший ноль.",

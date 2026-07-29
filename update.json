@@ -1,20 +1,21 @@
 {
   "schemaVersion": 1,
-  "versionCode": 51,
-  "versionName": "0.14.0-beta.16",
+  "versionCode": 52,
+  "versionName": "0.14.0-beta.17",
   "minSupportedVersionCode": 31,
-  "publishedAt": "2026-07-24T12:18:57Z",
+  "publishedAt": "2026-07-29T13:46:21Z",
   "mandatory": false,
-  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.16",
+  "releasePageUrl": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/tag/v0.14.0-beta.17",
   "apk": {
-    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.16/AutoDiag-0.14.0-beta.16-build51-release.apk",
-    "size": 1795775,
-    "sha256": "f7406497e2b08ab27cd540182600192a830eb30c1267646d86284d49a62e680f"
+    "url": "https://github.com/SolasWyrd/AutoDiagOBD-Releases/releases/download/v0.14.0-beta.17/AutoDiag-0.14.0-beta.17-build52-release.apk",
+    "size": 1795780,
+    "sha256": "2177ffc6273df5272b1bd60f0c20113487f3e1a8fc6ead5b297f56be611f7a7b"
   },
   "changelog": [
-    "GPS-only режим поездки запускается, если Android передаёт скорость без отдельной оценки её погрешности.",
-    "Свежие GPS-фиксы с пригодной точностью принимаются без OBD, а неточные и устаревшие координаты отбрасываются.",
-    "В APK добавлен Baseline Profile для старта приложения и основной навигации.",
-    "Добавлен Macrobenchmark-контур для измерения холодного запуска и плавности переходов между основными экранами."
+    "Отсутствие кодов показывается только после полного успешного чтения ЭБУ.",
+    "Partial, unsupported, failed и loading состояния получили отдельные безопасные сценарии восстановления.",
+    "DTC detail разделяет код, причины, подтверждённые данные, диагностические шаги и срочность.",
+    "Очистка кодов предупреждает о последствиях и не подаётся как ремонт.",
+    "Подключение, demo-маркировка и keyboard focus стали понятнее и надёжнее."
   ]
 }
